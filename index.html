@@ -12,22 +12,23 @@
     <p>Have you ever been talking to a nice alien from space, but you're just a humble cowboy?<br>
     This is the website for you!</p>
 
-<table colspan="4">
-    <tr>
-    <td rowspan="2">
-    <form>
-        <textarea id="cowboyInput" placeholder="Cowboy here..."></textarea>
+<table width= 100% >
+    <tr colspan="4">
+    <td>
+    <form width=50%>
+        <p>Cowboy:</p>
+        <textarea id="textInput" cols="50%" rows="10" maxlength="500" placeholder="Cowboy here..."></textarea>
     </form>
     </td>
     <td>
-          <form>
-        <textarea id="cowboyInput" placeholder="Cowboy here...">
-           
-        </textarea>
+          <form width="50%">
+            <p>Alien:</p>
+        <textarea id="textOutput" cols="50%" rows="10" placeholder="Translation here..." readonly></textarea>
     </form>
     </td>
     </tr>
 </table>
-   
+<button type="button" onclick=translate()>Translate</button>
+<script src="main.js"></script>
 </body>
 </html>
