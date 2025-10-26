@@ -1,8 +1,8 @@
-var translate = document.getElementById('textOutput');
+// var translate = document.getElementById('textOutput');
 
-function translateText(){
-    translate.value = "Hello!"
-}
+// function translateText(){
+//     translate.value = "Hello!"
+// }
 
 function swapTranslation(){
 
