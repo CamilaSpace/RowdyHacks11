@@ -21,6 +21,7 @@ function EnglishToKlingon(englishInput){
             klingonOutput += klingon[english.indexOf(cleanedString)];
         }else{
             klingonOutput += cleanedString;
+            klingonOutput += " ";
         }
     }
     //do actual output
