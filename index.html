@@ -11,34 +11,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Irish+Grover&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    
     <h1 class="caprasimo-regular">
     <img src="assets/images/CowboyCaden.png" height="50" width="50">   
         Rootin Tootin Translator
     <img src="assets/images/AlienNick.png" height="50" width="50">
     </h1>
-    <h2>About</h2>
-    <p>Have you ever been talking to a nice alien from space, but you're just a humble cowboy?<br>
+    <h2 class="caprasimo-regular">About</h2>
+    <p class="caprasimo-regular">Have you ever been talking to a nice alien from space, but you're just a humble cowboy?<br>
     This is the website for you!</p>
+
+    
 
 <table>
     <tr>
     <td>
     <form width=50%>
-        <p>Cowboy:</p>
+        <p class="caprasimo-regular">Cowboy:</p>
         <textarea id="textInput" cols="50%" rows="10" maxlength="500" placeholder="Cowboy here..."></textarea>
     <!--<input type="text" cols="50%" rows="10" maxlength="500" id="cowboyInput" placeholder="Cowboy here..."/> -->
     </form>
+
+    
     </td>
     <td>
           <form width="50%">
-            <p>Alien:</p>
+            <p class="caprasimo-regular">Alien:</p>
         <textarea id="textOutput" cols="50%" rows="10" placeholder="Translation here..." readonly></textarea>
     </form>
     </td>
     </tr>
 </table>
 <button type="button" onclick="main()">Translate</button>
+<br>
 <img src="assets/images/CowboyUFO.png" id="spaceCowboy" height="100" width="150">
 <script src="translator.js"></script>
 </body>

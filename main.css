@@ -18,6 +18,15 @@ h1{
     text-align: center;
 }
 
+h2{
+    color:rgb(73, 73, 73);
+    
+}
+
+p{
+    color: black;
+}
+
 textarea{
     margin: 50px;
 }
@@ -32,4 +41,14 @@ button{
 #spaceCowboy{
     display: block;
     margin: auto;
+}
+
+.vl {
+  border-left: 6px solid rgb(0, 17, 0);
+  height: 25%;
+  position: absolute;
+  left: 50%;
+  /*margin-left: -3px;*/
+  top: 33%;
+  bottom: 33%;
 }
