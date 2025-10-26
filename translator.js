@@ -16,6 +16,8 @@ function EnglishToKlingon(){
         var cleanedString = englishInputArray[i].replace(/[^a-zA-Z0-9]/g, '');
         if(english.indexOf(cleanedString) !== -1){
             klingonOutput += klingon[english.indexOf(cleanedString)];
+        }else{
+            klingonOutput += cleanedString;
         }
     }
     //do actual output
@@ -34,6 +36,8 @@ function KlingonToEnglish(){
         if(klingon.indexOf(cleanedString) !== -1){
             englishOutput += english[klingon.indexOf(cleanedString)];
             englishOutput += " ";
+        }else{
+            englishOutput += cleanedString;
         }
     }
     //do actual output
