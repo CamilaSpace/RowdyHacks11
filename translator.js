@@ -23,7 +23,7 @@ function EnglishToKlingon(englishInput){
     }
     //do actual output
     translateOutput.value = klingonOutput;
-    //console.log(klingonOutput);
+    console.log(klingonOutput);
 }
 
 function KlingonToEnglish(){
